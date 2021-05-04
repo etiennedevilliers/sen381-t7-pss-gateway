@@ -5,16 +5,12 @@ admin:
   host: localhost
 apiEndpoints:
   callcentreagents:
-    host: localhost
     paths: '/CallCentreAgents'
   client:
-    host: localhost
     paths: '/Client'
   complaintrequest:
-    host: localhost
     paths: '/ComplaintRequests'
   insertcallog:
-    host: localhost
     paths: '/InsertCallLog'
 serviceEndpoints:
   httpbin:
