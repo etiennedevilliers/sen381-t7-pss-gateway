@@ -12,6 +12,8 @@ apiEndpoints:
     paths: '/ComplaintRequests'
   insertcallog:
     paths: '/InsertCallLog'
+  checkcredentials:
+    paths: '/CheckCredentials'
 serviceEndpoints:
   httpbin:
     url: 'http://localhost:3030'
@@ -31,6 +33,7 @@ pipelines:
       - client
       - complaintrequest
       - insertcallog
+      - checkcredentials
     policies:
     # Uncomment `key-auth:` when instructed to in the Getting Started guide.
     # - key-auth:
